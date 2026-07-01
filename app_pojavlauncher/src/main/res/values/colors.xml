@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <color name="background_app">#09040D</color>
+    <color name="background_overlay">#1A0C1E</color>
+    <color name="background_status_bar">#09040D</color>
+    <color name="background_bottom_bar">#120716</color>
+
+    <!-- Crystal Pink -->
+    <color name="crystal_primary">#FF4FD8</color>
+    <color name="crystal_secondary">#FF8AE8</color>
+    <color name="crystal_dark">#6E0055</color>
+
+    <!-- Buttons -->
+    <color name="minebutton_color">#FF4FD8</color>
+
+    <color name="control_button_color">#33161616</color>
+    <color name="control_button_pressed_color">#55FF4FD8</color>
+
+    <!-- Text -->
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#CFCFCF</color>
+
+    <color name="divider">#30FF4FD8</color>
+    <color name="icon_outline_color">#FFFFFF</color>
+
+</resources>
