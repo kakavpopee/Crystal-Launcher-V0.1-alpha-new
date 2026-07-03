@@ -19,9 +19,11 @@
 			android:layout_height="wrap_content">
 			<ImageView
     android:id="@+id/crystal_header_logo"
-    android:layout_width="220dp"
-    android:layout_height="110dp"
-    android:layout_marginTop="18dp"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="12dp"
+    android:adjustViewBounds="true"
+    Android:scaleType="fitCenter"
     android:src="@drawable/ic_mojo_full"
 
     app:layout_constraintTop_toTopOf="parent"
