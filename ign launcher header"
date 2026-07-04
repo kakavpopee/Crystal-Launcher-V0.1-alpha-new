@@ -1,0 +1,57 @@
+[1mdiff --git a/app_pojavlauncher/src/main/res/layout/fragment_launcher.xml b/app_pojavlauncher/src/main/res/layout/fragment_launcher.xml[m
+[1mindex 317b4f5d0..38ff9e895 100644[m
+[1m--- a/app_pojavlauncher/src/main/res/layout/fragment_launcher.xml[m
+[1m+++ b/app_pojavlauncher/src/main/res/layout/fragment_launcher.xml[m
+[36m@@ -19,9 +19,9 @@[m
+ 			android:layout_height="wrap_content">[m
+ 			<ImageView[m
+     android:id="@+id/crystal_header_logo"[m
+[31m-    android:layout_width="300dp"[m
+[31m-    android:layout_height="150dp"[m
+[31m-    android:layout_marginTop="12dp"[m
+[32m+[m[32m    android:layout_width="280dp"[m
+[32m+[m[32m    android:layout_height="140dp"[m
+[32m+[m[32m    android:layout_marginTop="8dp"[m
+     android:adjustViewBounds="true"[m
+     android:scaleType="fitCenter"[m
+     android:src="@drawable/ic_mojo_full"[m
+[36m@@ -36,12 +36,28 @@[m
+ [m
+     android:text="Crystal Launcher"[m
+     android:textStyle="bold"[m
+[31m-    android:textSize="30sp"[m
+[32m+[m[32m    android:textSize="32sp"[m
+ [m
+[31m-    android:textColor="#FF66E8"[m
+[32m+[m[32m    android:textColor="#FFFFFF"[m
+ [m
+     app:layout_constraintTop_toBottomOf="@id/crystal_header_logo"[m
+     app:layout_constraintStart_toStartOf="parent"[m
+[32m+[m[32m    app:layout_constraintEnd_toEndOf="parent"/>[m
+[32m+[m	[32m <TextView[m
+[32m+[m[32m    android:id="@+id/crystal_header_subtitle"[m
+[32m+[m[32m    android:layout_width="wrap_content"[m
+[32m+[m[32m    android:layout_height="wrap_content"[m
+[32m+[m
+[32m+[m[32m    android:layout_marginTop="4dp"[m
+[32m+[m
+[32m+[m[32m    android:text="Fast • Lightweight • Open Source"[m
+[32m+[m
+[32m+[m[32m    android:textColor="#B8AFFF"[m
+[32m+[m
+[32m+[m[32m    android:textSize="14sp"[m
+[32m+[m
+[32m+[m[32m    app:layout_constraintTop_toBottomOf="@id/crystal_header_title"[m
+[32m+[m[32m    app:layout_constraintStart_toStartOf="parent"[m
+     app:layout_constraintEnd_toEndOf="parent"/>[m
+ 			<androidx.constraintlayout.widget.Guideline[m
+ 				android:id="@+id/center_guideline"[m
+[36m@@ -57,7 +73,7 @@[m
+ 				android:layout_width="match_parent"[m
+ 				android:text="@string/mcl_button_social_media"[m
+ 				android:drawableStart="@drawable/ic_social_media"[m
+[31m-				app:layout_constraintTop_toBottomOf="@id/crystal_header_title"[m
+[32m+[m				[32mapp:layout_constraintTop_toBottomOf="@id/crystal_header_subtitle"[m
+ 				app:layout_constraintStart_toStartOf="parent"[m
+ 				app:layout_constraintEnd_toEndOf="parent"/>[m
+ [m
