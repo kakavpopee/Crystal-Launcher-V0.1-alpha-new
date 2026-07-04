@@ -23,7 +23,7 @@
     android:layout_height="150dp"
     android:layout_marginTop="12dp"
     android:adjustViewBounds="true"
-    Android:scaleType="fitCenter"
+    android:scaleType="fitCenter"
     android:src="@drawable/ic_mojo_full"
 
     app:layout_constraintTop_toTopOf="parent"
