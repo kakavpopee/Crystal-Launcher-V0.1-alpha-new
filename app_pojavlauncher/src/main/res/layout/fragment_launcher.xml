@@ -69,6 +69,13 @@
 
 			<com.kdt.mcgui.LauncherMenuButton
 				android:id="@+id/social_media_button"
+				android:background="@drawable/crystal_menu_card"
+				android:layout_marginStart="20dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginTop="18dp"
+				android:minHeight="72dp"
+				android:paddingStart="18dp"
+				android:paddingEnd="18dp"
 				style="@style/LauncherMenuButton.Universal"
 				android:layout_width="match_parent"
 				android:text="@string/mcl_button_social_media"
