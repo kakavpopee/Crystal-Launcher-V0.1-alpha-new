@@ -203,13 +203,16 @@
 	<com.kdt.mcgui.MineButton
 		android:id="@+id/play_button"
 		android:layout_width="match_parent"
-		android:layout_height="@dimen/_62sdp"
+		android:layout_height="64dp"
 
-		android:layout_marginHorizontal="@dimen/_17sdp"
-		android:layout_marginBottom="@dimen/_15sdp"
+		android:layout_marginStart="18dp"
+		android:layout_marginEnd="18dp"
+		android:layout_marginBottom="18dp"
 
 		android:textAllCaps="true"
 		android:text="@string/main_play"
+		android:textSize="20sp"
+		android:textStyle="bold"
 		app:layout_constraintBottom_toBottomOf="parent"
 		/>
 
