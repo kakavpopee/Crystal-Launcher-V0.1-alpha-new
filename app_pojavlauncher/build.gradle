@@ -50,7 +50,7 @@ configurations {
 }
 
 android {
-    namespace 'git.artdeell.mojo'
+    namespace 'com.crystallauncher.app'
 
     compileSdk = 36
 
@@ -80,11 +80,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "git.artdeell.mjlaunch"
+        applicationId "com.crystallauncher.app"
         minSdkVersion 21
         targetSdkVersion 36
         versionCode getDateSeconds()
-        versionName "v0.1 alpha"
+        versionName "v0.2.0 beta"
         multiDexEnabled false //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()
     }
