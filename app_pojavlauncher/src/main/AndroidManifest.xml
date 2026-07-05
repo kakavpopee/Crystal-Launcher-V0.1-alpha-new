@@ -116,7 +116,7 @@
     android:exported="false"/>
 
 <activity
-    android:name="net.kdt.pojavlaunch.PrivacyActivity"
+    android:name="net.kdt.pojavlaunch.CrystalPrivacyActivity"
     android:exported="false" />
 
         <activity

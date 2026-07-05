@@ -33,7 +33,7 @@ termsButton.setOnClickListener(v -> {
 	});
 
 privacyButton.setOnClickListener(v -> {
-    startActivity(new Intent(this, PrivacyActivity.class));
+    startActivity(new Intent(this, CrystalPrivacyActivity.class));
 	});
     }
 }
