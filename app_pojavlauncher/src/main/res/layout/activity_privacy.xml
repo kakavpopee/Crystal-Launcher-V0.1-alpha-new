@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1323">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:text="Crystal Launcher Privacy Policy"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="24dp"
+            android:textColor="#DDDDDD"
+            android:textSize="18sp"
+            android:text="Crystal Launcher respects your privacy.
+
+• Crystal Launcher does not collect personal information.
+
+• Login credentials are handled directly by Microsoft, Ely.by, or Local Accounts.
+
+• We never sell or share your personal data.
+
+• Settings are stored locally on your device.
+
+• Crash logs are only shared if you choose to send them.
+
+By using Crystal Launcher, you agree to this privacy policy."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

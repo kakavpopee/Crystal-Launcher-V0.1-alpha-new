@@ -33,7 +33,7 @@ termsButton.setOnClickListener(v -> {
 	});
 
 privacyButton.setOnClickListener(v -> {
-    // We'll create PrivacyActivity next.
+    startActivity(new Intent(this, PrivacyActivity.class));
 	});
     }
 }
