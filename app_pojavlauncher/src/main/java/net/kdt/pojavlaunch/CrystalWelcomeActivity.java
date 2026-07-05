@@ -47,8 +47,8 @@ version.startAnimation(titleAnim);
 continueButton.startAnimation(buttonAnim);
 
         // idek what this is  for
-Button termsButton = findViewById(R.id.button_terms);
-Button privacyButton = findViewById(R.id.button_privacy);
+TextView termsButton = findViewById(R.id.button_terms);
+TextView privacyButton = findViewById(R.id.button_privacy);
 
 continueButton.setOnClickListener(v -> {
     startActivity(new Intent(this, TestStorageActivity.class));
