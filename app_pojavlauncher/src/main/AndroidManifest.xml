@@ -45,17 +45,21 @@
             android:name="android.max_aspect"
             android:value="ratio_float" />
 
-        <activity
-            android:name="net.kdt.pojavlaunch.TestStorageActivity"
-            android:exported="true"
-            android:label="@string/app_short_name"
-            android:launchMode="singleTop">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<activity
+    android:name="net.kdt.pojavlaunch.CrystalWelcomeActivity"
+    android:exported="true"
+    android:label="@string/app_short_name"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+
+</activity>
+<activity
+    android:name="net.kdt.pojavlaunch.TestStorageActivity"
+    android:exported="false" />
         <activity
             android:name="net.kdt.pojavlaunch.LauncherActivity"
             android:label="@string/app_short_name"
@@ -107,6 +111,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+<activity
+    android:name="net.kdt.pojavlaunch.TermsActivity"
+    android:exported="false"/>
+
         <activity
             android:name="net.kdt.pojavlaunch.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|keyboard|navigation|uiMode"
