@@ -9,7 +9,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.R;
 
 public class FatalErrorActivity extends AppCompatActivity {
 

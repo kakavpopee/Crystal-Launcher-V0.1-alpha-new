@@ -8,7 +8,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.TextView;
 
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.R;
 
 import java.util.ArrayList;
 import java.util.List;

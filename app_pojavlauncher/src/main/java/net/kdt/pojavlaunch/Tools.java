@@ -80,8 +80,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-import git.artdeell.mojo.BuildConfig;
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.BuildConfig;
+import com.greecroafto.crystal.R;
 
 @SuppressWarnings("IOStreamConstructor")
 public final class Tools {

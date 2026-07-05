@@ -35,7 +35,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.R;
 
 public class GameRunner {
     /**

@@ -18,8 +18,8 @@ import android.webkit.MimeTypeMap;
 
 import androidx.annotation.Nullable;
 
-import git.artdeell.mojo.BuildConfig;
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.BuildConfig;
+import com.greecroafto.crystal.R;
 import net.kdt.pojavlaunch.Tools;
 
 import org.apache.commons.io.FileUtils;

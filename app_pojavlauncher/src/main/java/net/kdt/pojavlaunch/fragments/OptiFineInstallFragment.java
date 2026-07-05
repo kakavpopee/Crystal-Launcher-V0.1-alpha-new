@@ -6,7 +6,7 @@ import android.widget.ExpandableListAdapter;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.R;
 
 import net.kdt.pojavlaunch.instances.InstanceInstaller;
 import net.kdt.pojavlaunch.instances.Instances;

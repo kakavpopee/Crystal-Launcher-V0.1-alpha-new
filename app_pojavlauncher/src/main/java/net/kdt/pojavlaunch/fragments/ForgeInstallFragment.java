@@ -4,7 +4,7 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import git.artdeell.mojo.R;
+import com.greecroafto.crystal.R;
 
 import net.kdt.pojavlaunch.modloaders.ForgelikeUtils;
 
