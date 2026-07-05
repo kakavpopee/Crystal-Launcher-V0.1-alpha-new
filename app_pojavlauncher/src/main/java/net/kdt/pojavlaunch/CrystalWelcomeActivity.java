@@ -8,6 +8,10 @@ import android.os.Looper;
 import android.widget.Button;
 import android.content.Intent;
 import com.greecroafto.crystal.R;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class CrystalWelcomeActivity extends Activity {
 
@@ -17,9 +21,32 @@ public class CrystalWelcomeActivity extends Activity {
 
         // TODO: Replace with your welcome screen layout
         setContentView(R.layout.activity_crystal_welcome);
+Animation logoAnim =
+        AnimationUtils.loadAnimation(this, R.anim.logo_intro);
 
-        // Show welcome screen for 2 seconds
-	Button continueButton = findViewById(R.id.button_continue);
+Animation titleAnim =
+        AnimationUtils.loadAnimation(this, R.anim.title_intro);
+
+Animation buttonAnim =
+        AnimationUtils.loadAnimation(this, R.anim.button_intro);
+
+ImageView logo = findViewById(R.id.logo);
+
+TextView title = findViewById(R.id.title);
+
+TextView version = findViewById(R.id.version);
+
+Button continueButton = findViewById(R.id.button_continue);
+
+logo.startAnimation(logoAnim);
+
+title.startAnimation(titleAnim);
+
+version.startAnimation(titleAnim);
+
+continueButton.startAnimation(buttonAnim);
+
+        // idek what this is  for
 Button termsButton = findViewById(R.id.button_terms);
 Button privacyButton = findViewById(R.id.button_privacy);
 
