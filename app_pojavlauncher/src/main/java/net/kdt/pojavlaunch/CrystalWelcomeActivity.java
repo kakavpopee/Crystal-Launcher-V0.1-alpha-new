@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Button;
 import android.content.Intent;
+import com.greecroafto.crystal.R;
 
 public class CrystalWelcomeActivity extends Activity {
 

@@ -2,6 +2,7 @@ package net.kdt.pojavlaunch;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.greecroafto.crystal.R;
 
 public class TermsActivity extends Activity {
 
