@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F23C9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:text="Account Manager"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/button_add_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Account"/>
+
+        <Button
+            android:id="@+id/button_change_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Avatar"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/button_change_skin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Skin"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
