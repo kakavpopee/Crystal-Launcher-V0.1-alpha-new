@@ -1,5 +1,4 @@
 package com.kdt.mcgui;
-
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
@@ -18,7 +17,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -46,6 +44,8 @@ import java.util.Objects;
 
 import fr.spse.extended_view.ExtendedTextView;
 import com.greecroafto.crystal.R;
+import android.content.Intent;
+import net.kdt.pojavlaunch.AccountManagerActivity;
 
 public class AccountSpinner extends AppCompatSpinner implements LoginListener, AdapterView.OnItemSelectedListener, ValueAnimator.AnimatorUpdateListener {
     private Adapter mAdapter;
@@ -317,7 +317,10 @@ public class AccountSpinner extends AppCompatSpinner implements LoginListener, A
                 deleteButton.setVisibility(View.GONE);
                 // Only activate the listener behaviour when in drop-down mode
                 // or when there's no accounts
-                if(isDropDown || getCount() == 1) view.setOnClickListener(v-> createAccount());
+                if(isDropDown || getCount() == 1) view.setOnClickListener(v -> {
+    Intent intent = new Intent(getContext(), AccountManagerActivity.class);
+    getContext().startActivity(intent);
+});
                 return;
             }
 

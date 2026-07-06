@@ -51,7 +51,7 @@ TextView termsButton = findViewById(R.id.button_terms);
 TextView privacyButton = findViewById(R.id.button_privacy);
 
 continueButton.setOnClickListener(v -> {
-    startActivity(new Intent(this, AccountManagerActivity.class));
+    startActivity(new Intent(this, TestStorageActivity.class));
     finish();
 	});
 
