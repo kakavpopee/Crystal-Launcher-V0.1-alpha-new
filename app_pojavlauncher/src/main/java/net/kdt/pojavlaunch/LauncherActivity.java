@@ -50,7 +50,7 @@ import net.kdt.pojavlaunch.utils.NotificationUtils;
 import com.greecroafto.crystal.R;
 
 public class LauncherActivity extends BaseActivity {
-    public static final String SETTING_FRAGMENT_TAG = "SETTINGS_FRAGMENT";
+    public static boolean OPEN_LOGIN_AFTER_START = false;
 
     private FragmentContainerView mFragmentView;
     private ImageButton mSettingsButton;
@@ -163,6 +163,13 @@ public class LauncherActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pojav_launcher);
+if (OPEN_LOGIN_AFTER_START) {
+    OPEN_LOGIN_AFTER_START = false;
+
+    getWindow().getDecorView().post(() -> {
+        ExtraCore.setValue(ExtraConstants.SELECT_AUTH_METHOD, true);
+    });
+}
 
         try {
             Os.setenv("TMPDIR", Tools.DIR_CACHE.getAbsolutePath(), true);
