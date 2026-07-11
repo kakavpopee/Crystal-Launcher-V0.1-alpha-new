@@ -50,6 +50,7 @@ import net.kdt.pojavlaunch.utils.NotificationUtils;
 import com.greecroafto.crystal.R;
 
 public class LauncherActivity extends BaseActivity {
+    private static final String SETTING_FRAGMENT_TAG = "LauncherPreferenceFragment";
     public static boolean OPEN_LOGIN_AFTER_START = false;
 
     private FragmentContainerView mFragmentView;
